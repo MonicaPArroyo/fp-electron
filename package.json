@@ -1,0 +1,22 @@
+{
+  "name": "visualizador-de-imagenes",
+  "version": "1.0.0",
+  "description": "Aplicativo electron para visualización de imágenes",
+  "main": "index.js",
+  "scripts": {
+    "type": "module",
+    "dev": "cross-env electron src/index.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MonicaPArroyo",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "^16.0.7",
+    "electron-debug": "^3.2.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
