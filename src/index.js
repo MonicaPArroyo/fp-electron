@@ -4,7 +4,7 @@
 const { app, BrowserWindow } = require ( 'electron' )
 const debug = require ( 'electron-debug')
 
-//debug();
+debug();
 
 // imprimiendo un mensaje en la consola antes de salir
 app.on('before-quit', () => {
